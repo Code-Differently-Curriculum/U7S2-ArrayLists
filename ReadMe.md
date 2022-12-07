@@ -49,7 +49,7 @@ In the package `partB.ex01` look at the file `ArrayListDemoExample` and write co
 
 #### Step 02
 
-In the package `partB.ex01` complete the `ArrayList` per the following:
+In the package `partB.ex01` complete the `ArrayList1` per the following:
 
         Create a program with an arraylist that contains the following: Steve, Tim, Lucy, Pat, Angela, Tom
         Print this out to the console
