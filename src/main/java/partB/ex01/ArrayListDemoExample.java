@@ -3,7 +3,10 @@ package partB.ex01;
 import java.util.ArrayList;
 
 public class ArrayListDemoExample {
-    public static void main(String args[]) {
+
+    public static String arrayListDemoExample() {
+        String response = "";
+
         ArrayList<String> names;
         names = new ArrayList();
 
@@ -14,13 +17,22 @@ public class ArrayListDemoExample {
         names.add(2, "Prashant");
 
         String str = names.get(0);
-        System.out.println(str);
+        response += (str);
 
         names.remove(0);
         names.remove(names.size() - 1);
         names.remove("Gustav");
 
-        System.out.println(names);
+        response += (names);
 
+
+        return response;
+
+    }
+
+
+    public static void main(String args[]) {
+        String output = arrayListDemoExample();
+        System.out.print(output);
     }
 }

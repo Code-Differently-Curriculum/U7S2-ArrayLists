@@ -2,34 +2,16 @@
 
 * Part A - Foundations 8.2
 * Part B - Foundations Practice
+* Part C - Algorithm Challenge
 
 ## Part A
+
 
 ### Exercise 01
 
 #### Step 01
 
-In the package `partA.ex01` look at the file `ArrayList1`.
-
-#### Step 02
-
-* Modify the program to implement:
-  * Create an ArrayList of Strings called students
-  * Add four students to the ArrayList: Amy, Bob,Cindy and David
-  * Print the elements in the ArrayList and display its size
-
-#### Step 03
-
-* Modify the program to implement:
-  * Add two more students, Nick and Mike, at index 0 and 1
-  * Remove the student at index 3
-  * Print the elements in the ArrayList and display its size
-
-### Exercise 02
-
-#### Step 01
-
-In the package `partA.ex02` look at the file `ArrayList2`.
+In the package `partA` look at the file `ArrayList`.
 
 #### Step 02
 
@@ -38,6 +20,15 @@ In the package `partA.ex02` look at the file `ArrayList2`.
   * Display the contents of the ArrayList by using Iterator
   * Remove all even numbers
   * Display the contents of the ArrayList
+
+Your program is working correctly, if when run, the following is the output:
+```
+scores 66
+scores 79
+scores 95
+scores 84
+scores [79, 95]
+```
 
 ## Part B
 
@@ -126,3 +117,28 @@ Tyrion Lannister
 ```
 
 > Use ArrayListTraversingExample for reference.
+
+## Part c
+
+### Problem 1
+With the provided string, we need you to provide a new scrambled string.
+Take the first two characters of the string or take whatever characters are present there.
+
+Return the new string with the first 2 characters added at both the front and back of the original string.
+
+Example:
+```java
+double22("kitten") --> "kikittenki"
+double22("Ha") --> "HaHaHa"
+double22("abc") --> "ababcab"
+```
+### Problem 2
+We need to check if the given numbers are within the range 10...20 inclusive.
+You are given 2 int values, return true if either number is in the range of 10...20.
+
+Example:
+```java
+range1020(12, 99) --> true
+range1020(21, 12) --> true
+range1020(8, 99) --> false
+```

@@ -1,7 +1,9 @@
-package partB.ex03;
+package partA;
 
-public class Traversing {
-    public static String traversing() {
+
+public class ArrayList {
+
+    public static String arrayListPractice() {
         String response = "";
 
 
@@ -10,7 +12,9 @@ public class Traversing {
 
     }
     public static void main(String[] args) {
-        String output = traversing();
+        String output = arrayListPractice();
         System.out.print(output);
     }
 }
+
+

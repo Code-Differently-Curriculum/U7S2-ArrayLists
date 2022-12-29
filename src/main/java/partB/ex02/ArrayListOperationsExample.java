@@ -3,7 +3,10 @@ package partB.ex02;
 import java.util.ArrayList;
 
 public class ArrayListOperationsExample {
-    public static void main(String[] args) {
+
+    public static String arrayListOperationsExample() {
+        String response = "";
+
         ArrayList<String> currency = new ArrayList<String>();
         currency.add("Dollar");
         currency.add("Pound");
@@ -12,15 +15,23 @@ public class ArrayListOperationsExample {
         currency.add("Dhiram");
         currency.add(3, "Rupee");
         if (currency.contains("Rupee")) {
-            System.out.println(" Currency is present");
+            response += (" Currency is present");
         } else {
-            System.out.println(" Currency is not present");
+            response += (" Currency is not present");
         }
         currency.remove("Rupee");
-        System.out.println("The following currency are present");
+        response += ("The following currency are present");
         for(String i:currency)
         {
-            System.out.println(i);
+            response += (i);
         }
+
+        return response;
+
+    }
+    public static void main(String[] args) {
+        String output = arrayListOperationsExample();
+        System.out.print(output);
+
     }
 }
